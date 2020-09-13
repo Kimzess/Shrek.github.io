@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+ <title></title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+ <h1 class="heading">Shrek's Password Generator</h1>
+ <h4>by Shrek</h4>
+ <input class="password"
+id="password"type="text" readonly>
+ <br>
+ <div id="tipp">
+  your password will display here.
+ </div>
+ <div class="check">
+ <span>Numbers</span><input id="numbers"onclick="checkNum()"type="checkbox">
+ </div>
+ <div class="check">
+ <span>Specials</span><input type="checkbox" onclick="checkSpec()" id="special">
+ </div>
+ <br>
+ <br>
+ <button id="generate" class="generate" onclick="generate()">Generate</button>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>

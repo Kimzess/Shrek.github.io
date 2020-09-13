@@ -1,0 +1,76 @@
+body {
+ background-color: rgb(70,70,70);
+ margin-top: 40px;
+ }
+ h4 {
+  margin: 10px 0 10px 0;
+  padding: 0;
+  text-align: center;
+ }
+.main{
+ background-color: ;
+ text-align: center;
+ color: white;
+ padding: 20px;
+ margin: 5px;
+ border-radius: 20px;
+ height: 500px;
+ width:88%;
+ }
+.heading{
+text-align: center;
+color: white;
+background-color: #5a7141;
+border-radius: 15px;
+margin-bottom: 30px;
+padding-bottom: 10px;
+padding-top: 10px;
+width: 100%;
+margin-bottom: 0;
+}
+h1 {
+ height: 40px;
+}
+button{
+border: none;
+outline: none;
+padding: 5px;
+text-align: center;
+width: 100px;
+height: 40px;
+font-size: 20px;
+border-radius: 10px;
+color: white;
+background-color: #5a7141;
+}
+.password{
+width: 80%;
+height: 40px;
+font-size: 40px;
+background-color: rgb(90,90,90);
+border: none;
+outline: none;
+border-radius: 10px;
+color: white;
+text-align: center;
+padding: 10px;
+margin: 0;
+}
+
+.check{
+position: relative;
+left: 220px;
+width: 30%;
+background-color: rgb(50, 50, 50);
+margin-top: 20px;
+border-radius: 10px;
+padding: 4px;
+}
+#numbers{
+border: none;
+outline: none;
+}
+#special{
+border: none;
+outline: none;
+}
